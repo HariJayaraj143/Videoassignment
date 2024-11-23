@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loan Request</title>
+  </head>
+  <body>
+    <h1>Request a Loan</h1>
+    <form method="POST" action="/loan">
+      {{ form.hidden_tag() }}
+      <label for="amount">Loan Amount ($):</label>
+      {{ form.amount(size=20) }}<br />
+      {% for error in form.amount.errors %}
+      <span style="color: red;">{{ error }}</span><br />
+      {% endfor %}
+
+      <label for="term">Loan Term (Weeks):</label>
+      {{ form.term(size=20) }}<br />
+      {% for error in form.term.errors %}
+      <span style="color: red;">{{ error }}</span><br />
+      {% endfor %} {{ form.submit() }}
+    </form>
+  </body>
+</html>
