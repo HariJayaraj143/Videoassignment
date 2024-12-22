@@ -1,118 +1,33 @@
-In this project, let's build a **Simple Todos** app by applying the concepts we have learned till now.
+In this project, let's build a **Video Management** app by applying the concepts we have learned till now.
 
-### Refer to the image below:
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/simple-todos-output.gif" alt="simple todos output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
+---
 
-### Design Files
+### **Explanation of the README:**
 
-<details>
-<summary>Click to view</summary>
+1. **Project Overview:**
+   - This section gives a brief description of the application, its core features, and the technologies used.
 
-- [Extra Small (Size < 576px) and Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/simple-todos-sm-output-v2.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/simple-todos-lg-output-v2.png)
+2. **Getting Started:**
+   - Provides instructions on setting up the project, including cloning the repository, setting up the backend and frontend, and configuring environment variables.
+   - Explains how to run the application using Docker and how to run it locally without Docker.
 
-</details>
+3. **Folder Structure:**
+   - Describes the organization of the project, outlining the contents of the `backend` and `frontend` directories.
 
-### Set Up Instructions
+4. **API Endpoints:**
+   - Lists the key API endpoints, describing the methods and their functions.
 
-<details>
-<summary>Click to view</summary>
+5. **Contributing:**
+   - Provides guidelines for contributing to the project.
 
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
+6. **License:**
+   - Mentions the MIT License for the project (you can update this if your project uses a different license).
 
-### Completion Instructions
+---
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
+This `README.md` provides a comprehensive guide to your Video Management Application. You can customize it further depending on your project’s specifics. Let me know if you need any more details!
 
-The app must have the following functionalities
-
-- Initially, the list of given todos should be displayed with a delete button for each todo
-- When **Delete** button of a todo is clicked, then the respective todo should be deleted
-- The `SimpleTodos` will consist of the `initialTodosList`. It consists of a list of todo objects with the following properties in each todo object
-
-  |  Key  | Data Type |
-  | :---: | :-------: |
-  |  id   |  Number   |
-  | title |  String   |
-
-</details>
-
-<details>
-<summary>Components Structure</summary>
-
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/simple-todos-component-structure.png" alt="simple todos component structure" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
-
-</details>
-
-<details>
-<summary>Implementation Files</summary>
-<br/>
-
-Use these files to complete the implementation:
-
-- `src/components/SimpleTodo/index.js`
-- `src/components/SimpleTodo/index.css`
-- `src/components/TodoItem/index.js`
-- `src/components/TodoItem/index.css`
-</details>
-
-### Quick Tips
-
-<details>
-<summary>Click to view</summary>
-<br>
-
-- You can use the `cursor` CSS property to specify the mouse cursor to be displayed when pointing over an element
-
-  ```
-    cursor: pointer;
-  ```
-
-  <br/>
-   <img src="https://assets.ccbp.in/frontend/content/react-js/cursor-pointer-img.png" alt="cursor pointer" style="width:100px" />
-
-- You can use the below `outline` CSS property for buttons and input elements to remove the highlighting when the elements are clicked
-
-  ```
-    outline: none;
-  ```
-
-</details>
-
-### Resources
-
-<details>
-<summary>Colors</summary>
-
-<br/>
-
-<div style="background-color: #ffc2a0; width: 150px; padding: 10px; color: black">Hex: #ffc2a0</div>
-<div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
-<div style="background-color: #ff8542; width: 150px; padding: 10px; color: white">Hex: #ff8542</div>
-<div style="background-color: #000000; width: 150px; padding: 10px; color: white">Hex: #000000</div>
-<div style="background-color: #ff0b37; width: 150px; padding: 10px; color: white">Hex: #ff0b37</div>
-
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Roboto
-
-</details>
 
 > ### _Things to Keep in Mind_
 >
